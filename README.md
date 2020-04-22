@@ -37,6 +37,7 @@ Developers shall install additional packages:
 **$ sudo apt-get install librealsense2-dbg**
 
 With dev package installed, you can compile an application with librealsense using:
+
 **$ g++ -std=c++11 filename.cpp -lrealsense2 or an IDE of your choice.**
 
 Verify that the kernel is updated :
