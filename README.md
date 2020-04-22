@@ -70,4 +70,7 @@ The stept I have followed are in [this link](https://github.com/IntelRealSense/l
 This proccess takes a lot of time (more than 20h - the time I personally needed) because the RaspberryPi is slow and the commands like **cmake**, **make -j1**, **make install** take many hours.
 In the end, some of the command gave errors and the whole installation process was *unsuccessful* 
 
-
+In order to woth with the **RealSense** camera, a different approach should be found. 
+ - One alternative is to install Ubuntu on the RaspberryPi
+ - Another alternative is to find different ways to install the libraries for Python
+ - A third alternative is to try using C/C++ instead of Python.
