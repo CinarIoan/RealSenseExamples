@@ -4,23 +4,8 @@
 
  For Windows it's simple and straight forward.
  You can install the Intel SDK software from [Intel website](www.intelrealsense.com/sdk-2/)
- 
-Prerequisites:
- Some necessaty packages (by the time of writing - 04.2020) work only on Python versions lower than 3.7.
- Therefore a python 3.6 would work fine.
 
-In order to work with the RealSense camera, using Python, we need 2 most important libraries: **librealsense2** and **pyrealsense**
-With Python 3.6 you can install them using:
-
-$ pip install librealsense2
-
-$ pip install pyrealsense
-
-Details about **librealsense2** can be found [here](https://github.com/IntelRealSense/librealsense)
-
-Details about **pyrealsense** can be found [here](https://pypi.org/project/pyrealsense/)
-
-<h3>Installation on Linux as well Raspbian OS</h3>
+<h3>Installation on Linux</h3>
 
  Installing the packages:
 
@@ -73,3 +58,11 @@ Details about **librealsense2** can be found [here](https://github.com/IntelReal
 
 Details about **pyrealsense** can be found [here](https://pypi.org/project/pyrealsense/)
 
+<h3>Installation on Raspbian OS</h3>
+
+Installing the RealSense SDK on Raspbian OS is same as for Linux
+
+The libraries **librealsense** and **pyrealsense** are not available for the OS just by installing them with pip.
+One version is to compile the libraries. This proccess takes a lot of time (more than 20h - the time I personally needed) because the RaspberryPi is slow and the commands take hours.
+
+The stept I have followed are in [this link](https://github.com/IntelRealSense/librealsense/blob/master/doc/installation_raspbian.md)
