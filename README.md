@@ -5,7 +5,7 @@
  For Windows it's simple and straight forward.
  You can install the Intel SDK software from [Intel website](www.intelrealsense.com/sdk-2/)
 
-<h3>Installation on Linux</h3>
+<h3>Installation on Linux as well Raspbian OS</h3>
  Installing the packages:
 
 Add Intel server to the list of repositories :
@@ -40,3 +40,17 @@ $ g++ -std=c++11 filename.cpp -lrealsense2 or an IDE of your choice.
 
 Verify that the kernel is updated :
 modinfo uvcvideo | grep "version:" should include realsense string
+
+<h3>Libraries/Packages</h3>
+Prerequisites:
+ Some necessaty packages (by the time of writing - 04.2020) work only on Python versions lower than 3.7.
+ Therefore a python 3.6 would work fine.
+
+In order to work with the RealSense camera, using Python, we need 2 most important libraries: **librealsense2** and **pyrealsense**
+With Python 3.6 you can install them using:
+$ pip install librealsense2
+$ pip install pyrealsense
+
+Details about **librealsense2** can be found [here](https://github.com/IntelRealSense/librealsense)
+Details about **pyrealsense** can be found [here](https://pypi.org/project/pyrealsense/)
+
