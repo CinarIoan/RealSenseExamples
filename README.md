@@ -74,7 +74,10 @@ In order to woth with the **RealSense** camera, a different approach should be f
  - One alternative is to install Ubuntu on the RaspberryPi
  - Another alternative is to find different ways to install the libraries for Python
  - A third alternative is to try using C/C++ instead of Python.
- 
+
+<h3>Python Examples</h3>
+
+Some examples with Python can be found in the **examples** folder or [here](https://github.com/IntelRealSense/librealsense/tree/master/wrappers/python/examples)
 <h4>Other things to mention</h4>
 
 The RealSense Camera works best with USB 3 but so far, were no problems connecting to USB 2
