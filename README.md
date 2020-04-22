@@ -63,6 +63,6 @@ Details about **pyrealsense** can be found [here](https://pypi.org/project/pyrea
 Installing the RealSense SDK on Raspbian OS is same as for Linux
 
 The libraries **librealsense** and **pyrealsense** are not available for the OS just by installing them with pip.
-One version is to compile the libraries. This proccess takes a lot of time (more than 20h - the time I personally needed) because the RaspberryPi is slow and the commands take hours.
+One version is to compile the libraries. This proccess takes a lot of time (more than 20h - the time I personally needed) because the RaspberryPi is slow and the commands like **cmake**, **make -j1**, **make install** take many hours.
 
 The stept I have followed are in [this link](https://github.com/IntelRealSense/librealsense/blob/master/doc/installation_raspbian.md)
