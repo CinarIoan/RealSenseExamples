@@ -11,10 +11,13 @@ Prerequisites:
 
 In order to work with the RealSense camera, using Python, we need 2 most important libraries: **librealsense2** and **pyrealsense**
 With Python 3.6 you can install them using:
+
 $ pip install librealsense2
+
 $ pip install pyrealsense
 
 Details about **librealsense2** can be found [here](https://github.com/IntelRealSense/librealsense)
+
 Details about **pyrealsense** can be found [here](https://pypi.org/project/pyrealsense/)
 
 <h3>Installation on Linux as well Raspbian OS</h3>
@@ -63,8 +66,10 @@ In order to work with the RealSense camera, using Python, we need 2 most importa
 With Python 3.6 you can install them using:
 
 $ pip install librealsense2
+
 $ pip install pyrealsense
 
 Details about **librealsense2** can be found [here](https://github.com/IntelRealSense/librealsense)
+
 Details about **pyrealsense** can be found [here](https://pypi.org/project/pyrealsense/)
 
